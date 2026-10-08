@@ -4,12 +4,12 @@
 class RoboticArm {
 	private:
 			double x;
-			doueble y;
-			doueble z;
+			double y;
+			double z;
 			bool holding;
 
 	public:
-				RoboticArm(doublex,double y,double z);
+				RoboticArm(double x,double y,double z);
 
 				double getX() const;
 				double getY() const;
@@ -18,7 +18,7 @@ class RoboticArm {
 
 				void grab();
 				void release();
-				void move(double x,double y doueble,z);
+				void move(double x,double y, double z);
 
 };
 

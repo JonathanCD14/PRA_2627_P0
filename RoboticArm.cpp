@@ -1,11 +1,12 @@
 #include "RoboticArm.h"
 
-RoboticArm::ROboticArm(double x,double y,double z) : x(x),y(y),z(z),holding(false){
+RoboticArm::RoboticArm(double x,double y,double z) : x(x),y(y),z(z),holding(false){
+	
 }
 double RoboticArm::getX() const {
 	return x;
 }
-double Robotic Arm::getY() const {
+double RoboticArm::getY() const {
 	return y;
 }
 double RoboticArm::getZ() const { 
@@ -17,7 +18,7 @@ bool RoboticArm::isHolding() const {
 void RoboticArm::grab() {
 	holding = true;
 }
-void RoboticArm = release() {
+void RoboticArm::release() {
 	holding = false;
 }
 
